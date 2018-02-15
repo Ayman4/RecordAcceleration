@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "157070016848",
+    "firebase_url": "https://ameliorater-bc836.firebaseio.com",
+    "project_id": "ameliorater-bc836",
+    "storage_bucket": "ameliorater-bc836.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157070016848:android:00b1944e9fabf476",
+        "android_client_info": {
+          "package_name": "org.hcilab.recordgyro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157070016848-78iacmtaj6719uchoojr7q5vqg64potp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRXvXAC5hjKCfuWpSsJz4_Qia0MrlBpQw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

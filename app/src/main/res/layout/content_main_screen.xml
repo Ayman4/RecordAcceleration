@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.hcilab.recordgyro.MainScreen">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:id="@+id/textViewx"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/toggleButton"
+        android:layout_marginTop="87dp"
+        tools:text="Show X" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewx"
+        android:layout_alignStart="@+id/textViewx"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textViewY" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewY"
+        android:layout_alignEnd="@+id/textViewY"
+        android:layout_marginTop="21dp"
+        android:id="@+id/textViewZ" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewloc"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSaving"
+        android:layout_above="@+id/textViewGyroX"
+        android:layout_alignStart="@+id/textViewx"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:id="@+id/textViewGyroX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewloc"
+        android:layout_alignTop="@+id/textViewx"
+        android:layout_marginEnd="48dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewGyroY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewGyroX"
+        android:layout_alignTop="@+id/textViewY"
+        android:text="textViewGyroY" />
+
+    <TextView
+        android:id="@+id/textViewGyroZ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewGyroY"
+        android:layout_alignTop="@+id/textViewZ"
+        android:text="TextView" />
+
+</RelativeLayout>
